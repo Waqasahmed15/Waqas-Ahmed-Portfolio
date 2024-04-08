@@ -8,6 +8,7 @@ html,
 body {
   height: 100%;
   width: 100%;
+  /* font-family: ; */
 }
 /* main section */
 #main {
@@ -29,15 +30,28 @@ body {
   transform: translateY(-50%);
 }
 #page > #nav {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  padding: 0px 30px;
   height: 10%;
   width: 100%;
   background: slateblue;
   position: absolute;
   z-index: 9;
 }
+#center-nav {
+  display: flex;
+  gap: 20px;
+}
 
-#nav>img{
-    
+#center-nav > a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+#nav > img {
 }
 #page1 {
   height: 100vh;
